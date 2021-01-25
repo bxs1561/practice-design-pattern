@@ -1,7 +1,9 @@
 package Mediator;
 
-public interface ChatRoom {
-    public void sendMessage(String msg, String userId);
+//Mediator interface
+public interface Statement {
+    public void start();
 
-    void addUser(User user);
+    public void stop();
+
 }
