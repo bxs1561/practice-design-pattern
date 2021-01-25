@@ -1,5 +1,6 @@
 package Mediator;
 
+//Concrete Colleague class
 public class Road implements Statement {
     private RoadTrafficPoliceOfficerMediator rtpoMediator;
 

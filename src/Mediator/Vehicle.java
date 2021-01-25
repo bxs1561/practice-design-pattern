@@ -3,7 +3,6 @@ package Mediator;
 //This is concrete Colleague class
 public class Vehicle implements Statement{
     private RoadTrafficPoliceOfficerMediator rtpoMediator;
-
     public Vehicle(RoadTrafficPoliceOfficerMediator rtpoMediator){
         this.rtpoMediator = rtpoMediator;
     }
