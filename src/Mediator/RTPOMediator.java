@@ -1,6 +1,6 @@
 package Mediator;
 
-//This is concrete mediator
+//This is concrete mediator class
 public class RTPOMediator implements RoadTrafficPoliceOfficerMediator {
     private Vehicle vehicle;
 
